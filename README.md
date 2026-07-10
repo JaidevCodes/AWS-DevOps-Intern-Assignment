@@ -286,6 +286,45 @@ The complete project documentation is available in the report included with this
 This assignment provided hands-on experience with AWS infrastructure, Linux server administration, Nginx web hosting, Git version control, and GitHub collaboration. It strengthened my understanding of DevOps fundamentals and practical cloud deployment workflows.
 
 ---
+# 🐳 Bonus Task – Docker Installation
+
+As part of the bonus task, Docker was installed and configured on the Ubuntu EC2 instance.
+
+## Installation Commands
+
+```bash
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo docker run hello-world
+```
+
+## Verification
+
+Docker service was verified to be running successfully.
+
+```bash
+sudo systemctl status docker
+```
+
+The `hello-world` container was executed successfully, confirming that Docker was installed and functioning correctly.
+
+```bash
+sudo docker run hello-world
+```
+
+---
+
+### Docker Service
+
+![Docker Service](screenshots/Docker_Activate.png)
+
+---
+
+### Hello World Container
+
+![Docker Hello World](screenshots/Docker-Run-Container.png)
 
 ## ⭐ Repository
 
