@@ -66,14 +66,14 @@ AWS-DevOps-Intern-Assignment/
 │
 ├── index.html
 ├── README.md
-├── ScreenShots/
+├── screenshots/
 │   ├── ec2-dashboard.png
 │   ├── security-group.png
 │   ├── ssh-login.png
 │   ├── nginx-installation.png
 │   ├── website.png
 │   └── ...
-└── Report/
+└── report/
     └── AWS_DevOps_Intern_Assignment_Report.pdf
 ```
 
